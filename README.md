@@ -12,6 +12,6 @@
 
 ### Y.2024
 
--  [Suppress and Rebalance Towards Generalized Multi-Modal Face Anti-Spoofing](./2024\Suppress and Rebalance Towards Generalized Multi-Modal Face Anti-Spoofing\paper reading.md) 
+-  [Suppress and Rebalance Towards Generalized Multi-Modal Face Anti-Spoofing](/2024/Suppress and Rebalance Towards Generalized Multi-Modal Face Anti-Spoofing/paper reading.md) 
 
    > 为了解决多模态FAS方法应对未见攻击和未见部署条件时泛化能力不足的问题，本文提出了不确定性引导的跨模态adapter来防止不可靠模态的误导，并设计了一种模态梯度平衡调节策略来平衡各个模态的收敛速度。
