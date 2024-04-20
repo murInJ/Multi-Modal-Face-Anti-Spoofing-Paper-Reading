@@ -25,7 +25,7 @@ MCD是确定模型不确定性的主要方法之一，主要是通过开启模�
 另一个确定模型不确定性的方法是深度集成法，是通过多个随机初始化权重的同样训练的模型喂入同一输入，再对输出样本进行观测。
 
 ###  Uncertainty-Guided Cross-Adapter (U-Adapter)
-解决不可靠问题  
+解决不可靠问题,UEM调整后的Attention-Base Fusion
 
 <div align=center><img src=".\assets\image-20240418234043152.png"></div>
 
