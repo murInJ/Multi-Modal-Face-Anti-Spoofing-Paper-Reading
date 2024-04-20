@@ -1,10 +1,14 @@
 # Suppress and Rebalance: Towards Generalized Multi-Modal Face Anti-Spoofing
-[[arxiv]](https://arxiv.org/abs/2402.19298)
+[[arxiv]](https://arxiv.org/abs/2402.19298)$\quad$[[code]](https://github.com/OMGGGGG/mmdg)
+
+## Introduce
+
+为了解决多模态FAS方法应对未见攻击和未见部署条件时泛化能力不足的问题，本文提出了不确定性引导的跨模态adapter来防止不可靠模态的误导，并设计了一种模态梯度平衡调节策略来平衡各个模态的收敛速度。
 
 <div align=center><img src=".\assets\image-20240418233759387.png"></div>
 
-
 ## Problem
+
 > Why using more modalities is not better?  
 1. **Modality unreliability** 未知的部署环境和不同类型的传感器在同模态下会有显著的域偏移，这会导致不可靠的特征提取，进而在跨模态融合中相互误导  
 2. **Modality imbalance** 多模态场景中模型会倾向于向具有最速收敛曲线的模态进行学习，导致对其他慢速模态的欠学习。在FAS中，当快速模态不可靠或者不能有效侦测目标域的攻击时，模态失衡会让模型无法发挥慢速模态的融合作用。  
