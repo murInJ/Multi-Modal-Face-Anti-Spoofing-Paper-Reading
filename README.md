@@ -18,6 +18,11 @@
    
 -  Rethinking Vision Transformer and Masked Autoencoder in Multimodal Face Anti-Spoofing
 
-   > 这篇论文提出了一种改进的视觉变换器（ViT）基础的多模态学习方法，用于提高人脸识别防欺骗系统的
+   > 这篇论文提出了一种改进的视觉变换器（ViT）基础的多模态学习方法，用于提高人脸识别防欺骗系统的性能。研究主要关注三个关键因素：模态感知输入、多模态预训练和微调策略。
    >
-   > 性能。研究主要关注三个关键因素：模态感知输入、多模态预训练和微调策略。
+
+### Y.2022
+
+- Balanced multimodal learning via on-the-ﬂy gradient
+
+  > 这篇论文提出了一种新的多模态学习方法，名为“On-the-fly Gradient Modulation with Generalization Enhancement (OGM-GE)”，旨在解决多模态学习中存在的优化不平衡问题。多模态学习通过整合不同感官的信息来全面理解世界，但现有的多模态判别模型在某些情况下可能无法充分利用多种输入模态，导致某些模态的表示未被充分优化。
