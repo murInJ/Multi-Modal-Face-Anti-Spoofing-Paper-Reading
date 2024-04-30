@@ -76,7 +76,7 @@ SSP loss 用于监控每个模态分支的收敛速度，这是通过计算每�
 
 `如果能做到用同样的公式结构直接模态center换成了域的center，那么模态和域之间是否有什么关系？`
 
-## Performence
+## Performance
 
 ![image-20240419004546435](.\assets\image-20240419004546435.png)
 

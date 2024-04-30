@@ -32,7 +32,7 @@
 
 ![image-20240427104414704](./assets/image-20240427104414704.png)
 
-## Performence
+## Performance
 
 ![image-20240427104509365](./assets/image-20240427104509365.png)
 
