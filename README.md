@@ -22,7 +22,16 @@
 
 -  S-Adapter Generalizing Vision Transformer for Face Anti-Spoofing with Statistical Tokens
 
-   > 这篇文章介绍了一种名为S-Adapter的新型面部反欺骗（Face Anti-Spoofing, FAS）方法，该方法通过在预训练的Vision Transformer（ViT）模型中插入适配器模块来提高面部识别系统的安全性。S-Adapter通过提取局部统计信息和使用Token Style Regularization（TSR）来减少跨域风格差异，从而增强模型在不同领域间的泛化能力。实验结果表明，该方法在零样本和少样本跨域测试以及未见攻击检测方面，相较于现有技术，取得了显著的性能提升。
+
+> 这篇文章介绍了一种名为S-Adapter的新型面部反欺骗（Face Anti-Spoofing, FAS）方法，该方法通过在预训练的Vision Transformer（ViT）模型中插入适配器模块来提高面部识别系统的安全性。S-Adapter通过提取局部统计信息和使用Token Style Regularization（TSR）来减少跨域风格差异，从而增强模型在不同领域间的泛化能力。实验结果表明，该方法在零样本和少样本跨域测试以及未见攻击检测方面，相较于现有技术，取得了显著的性能提升。
+
+- MoE-FFD  Mixture of Experts for Generalized and Parameter-Efficient Face Forgery Detection
+
+  > 本文介绍了一种名为MoE-FFD（Mixture of Experts for Face Forgery Detection）的新型深度伪造检测方法，该方法通过结合轻量级LoRA（Low-Rank Adaptation）和Adapter层，以参数高效的方式更新并保持Vision Transformer（ViT）骨干网络的ImageNet权重固定，同时利用Transformer的表达能力和CNN的局部先验来提取全局和局部伪造线索。MoE-FFD设计了新颖的MoE模块，通过固定激活参数动态选择最优的伪造检测专家，从而提高检测性能，并通过大量实验验证了其在减少参数开销的同时实现最先进的面部伪造检测性能。
+
+- TeG-DG: Textually Guided Domain Generalization for Face Anti-Spoofing
+
+  > 这篇论文提出了一个名为TeG-DG（Textually Guided Domain Generalization）的新框架，旨在提升面部反欺骗（Face Anti-Spoofing, FAS）技术在不同领域中的泛化性能。通过利用文本信息实现跨领域对齐，TeG-DG框架设计了一个分层注意力融合（Hierarchical Attention Fusion, HAF）模块来自适应地聚合不同层级的视觉特征，并引入了一个文本增强视觉鉴别器（Textual-Enhanced Visual Discriminator, TEVD），以改善两种模态间的对齐并使用无偏文本特征来规范分类器。实验结果表明，TeG-DG在各种数据集上均优于现有方法，尤其是在源领域数据极其有限的情况下，展现了出色的小样本（few-shot）性能。
 
 ### Y.2023
 
@@ -37,6 +46,10 @@
 - Efficient Multimodal Fusion via Interactive Prompting
 
   > 这篇论文提出了一种名为PMF（Prompt-based Multimodal Fusion）的高效多模态融合方法，通过在单模态预训练变换器的深层添加特定类型的提示向量，实现了在显著降低训练内存使用的同时，保持与全参数微调方法可比的性能。PMF方法通过模块化的多模态融合框架和三种不同类型的交互提示，增强了不同模态间的双向交互，展示了在多模态学习任务中的灵活性和高效性。
+
+- Rehearsal-Free Domain Continual Face Anti-Spoofing: Generalize More and Forget Less
+
+  > 这篇论文提出了一种无需重放缓冲区的领域持续学习(DCL)方法，用于面部反欺骗(FAS)任务，通过设计动态中心差分卷积适配器(DCDCA)和代理原型对比正则化(PPCR)来提高模型在未见领域的泛化能力并减少对先验知识的灾难性遗忘。
 
 ### Y.2022
 
