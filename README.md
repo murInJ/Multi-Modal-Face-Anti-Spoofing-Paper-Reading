@@ -62,3 +62,7 @@
 - Attention Bottlenecks for Multimodal Fusion
 
   > 文章提出了一种新的多模态融合架构MBT，通过在不同层次引入信息融合瓶颈来改善音频和视频的融合效果，降低了计算成本，并在多个音视频分类基准上取得了优异的性能。
+
+- Explaining Face Presentation Attack Detection Using Natural Language
+
+  > 这篇论文提出了一种使用自然语言来解释面部呈现攻击检测（PAD）模型预测的方法。研究者利用轻量级LSTM网络生成描述PAD预测背后逻辑的文本，并研究了不同的损失函数来提高文本质量。通过在含有真实和攻击样本的数据集上的实验，验证了模型生成有效PAD解释的能力。
