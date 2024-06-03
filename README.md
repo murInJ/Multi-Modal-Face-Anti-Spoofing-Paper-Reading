@@ -33,6 +33,10 @@
 
   > 这篇论文提出了一个名为TeG-DG（Textually Guided Domain Generalization）的新框架，旨在提升面部反欺骗（Face Anti-Spoofing, FAS）技术在不同领域中的泛化性能。通过利用文本信息实现跨领域对齐，TeG-DG框架设计了一个分层注意力融合（Hierarchical Attention Fusion, HAF）模块来自适应地聚合不同层级的视觉特征，并引入了一个文本增强视觉鉴别器（Textual-Enhanced Visual Discriminator, TEVD），以改善两种模态间的对齐并使用无偏文本特征来规范分类器。实验结果表明，TeG-DG在各种数据集上均优于现有方法，尤其是在源领域数据极其有限的情况下，展现了出色的小样本（few-shot）性能。
 
+- VL-FAS  Domain Generalization via Vision-Language Model For Face Anti-Spoofing
+
+  > 这篇论文提出了一种名为VL-FAS的面部反欺骗（FAS）新方法，通过结合视觉变换器（ViT）和自然语言描述来提升模型在不同领域间的泛化能力。研究者们利用MiniGPT-4生成细致的面部区域描述作为引导，通过自上而下的注意力调节机制让模型集中学习面部特征，同时引入样本级视觉-文本优化模块（SLVT），借助对比学习加深模型对图像样本内在语义的理解，减少对特定领域信息的依赖。
+
 ### Y.2023
 
 - Vision Transformers are Parameter-Efficient  Audio-Visual Learners
@@ -50,6 +54,10 @@
 - Rehearsal-Free Domain Continual Face Anti-Spoofing: Generalize More and Forget Less
 
   > 这篇论文提出了一种无需重放缓冲区的领域持续学习(DCL)方法，用于面部反欺骗(FAS)任务，通过设计动态中心差分卷积适配器(DCDCA)和代理原型对比正则化(PPCR)来提高模型在未见领域的泛化能力并减少对先验知识的灾难性遗忘。
+
+- FLIP  Cross-domain Face Anti-spoofing with Language Guidance
+
+  > 这篇论文介绍了一种名为FLIP的新型跨域人脸反欺骗（Face Anti-Spoofing, FAS）方法，该方法利用视觉变换器（Vision Transformer, ViT）模型和自然语言指导来提高FAS任务的泛化能力。研究者首先展示了使用多模态（例如CLIP）预训练权重初始化ViTs可以改善FAS任务的泛化性。接着，提出了一种新颖的跨域FAS方法，通过将图像表示与基于自然语言语义的类别描述集合对齐，在数据匮乏的情况下提高FAS的泛化能力。最后，提出了一种多模态对比学习策略，进一步增强特征泛化，并在源域和目标域之间架起桥梁。
 
 ### Y.2022
 
